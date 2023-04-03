@@ -1,1 +1,1 @@
-## End to end machine learning project I'm devloping a machine learning project
+## End to end machine learning project
