@@ -12,6 +12,9 @@ from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
 
 
 from src.exception import CustomException
