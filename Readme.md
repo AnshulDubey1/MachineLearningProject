@@ -1,1 +1,1 @@
-## End to end machine learning project
+I am working on a project that aims to develop a student performance indicator based on various user inputs. The project uses machine learning techniques to predict the math score of a student given their writing score, reading score, parental education,ethnicity, gender, and the group they belong. The project also explores the correlations and causal relationships between these variables and the math outcomes.On the basis of there correlationsthe project estimates the maths score based on these factors.
