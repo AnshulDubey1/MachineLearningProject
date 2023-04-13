@@ -1,13 +1,14 @@
-#Student Performance Indicator Project
+# Student Performance Indicator Project:
+
 This project aims to develop a student performance indicator that predicts a student's math score based on various user inputs. The project utilizes machine learning techniques to predict math scores using features such as writing score, reading score, parental education, ethnicity, gender, and group membership. The project also investigates the correlations and causal relationships between these variables and math outcomes, ultimately estimating the math score based on these factors.
 
-#Features:
-*`Writing Score`: This feature represents a student's score in a writing exam.
-*`Reading Score`: This feature represents a student's score in a reading exam.
-*`Parental Education`: This feature represents the education level of a student's parents.
-*`Ethnicity`: This feature represents a student's ethnicity.
-*`Gender`: This feature represents a student's gender.
-*`Group Membership`: This feature represents the group that the student belongs to.
+# Features:
+* `Writing Score`: This feature represents a student's score in a writing exam.
+* `Reading Score`: This feature represents a student's score in a reading exam.
+* `Parental Education`: This feature represents the education level of a student's parents.
+* `Ethnicity`: This feature represents a student's ethnicity.
+* `Gender`: This feature represents a student's gender.
+* `Group Membership`: This feature represents the group that the student belongs to.
 Target variable:
 * `Math Score`: Price of the given Diamond.
 Machine Learning Techniques
@@ -46,17 +47,18 @@ The machine learning techniques used in this project include regression analysis
 # Exploratory Data Analysis Notebook
 Link : [EDA Notebook](./notebook/eda.ipynb)
 
-#Dependencies
-Python 3.8 or higher
-pandas
-numpy
-seaborn
-scikit-learn
-matplotlib
-xgboost
-catboost
-dill
-Flask
+# Dependencies
+* Python 3.8 or higher
+* pandas
+* numpy
+* seaborn
+* scikit-learn
+* matplotlib
+* xgboost
+* catboost
+* dill
+* Flask 
+
 Please make sure to install these dependencies using pip or any other package manager before running the project.
 Usage
 Install the required dependencies using pip install pandas numpy scikit-learn.
@@ -65,5 +67,5 @@ Navigate to the project directory using cd <MachineLearningProject>.
 Run the student_performance_indicator.py script using python student_performance_indicator.py.
 Follow the prompts and input the required user inputs.
 The program will output the predicted math score for the student based on the input features.
-Conclusion
+# Conclusion
 The student performance indicator project aims to predict math scores based on various user inputs, including writing score, reading score, parental education, ethnicity, gender, and group membership. The project utilizes machine learning techniques to predict math scores and investigate the correlations and causal relationships between the features and math outcomes. This project can be used by educators and institutions to identify factors that may impact a student's math performance and take appropriate measures to support their success.
