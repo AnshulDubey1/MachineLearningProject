@@ -57,7 +57,8 @@ Link : [EDA Notebook](./notebook/eda.ipynb)
 * xgboost
 * catboost
 * dill
-* Flask
+* Flask 
+
 Please make sure to install these dependencies using pip or any other package manager before running the project.
 Usage
 Install the required dependencies using pip install pandas numpy scikit-learn.
