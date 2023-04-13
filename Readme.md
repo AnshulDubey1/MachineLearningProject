@@ -16,7 +16,7 @@ The machine learning techniques used in this project include regression analysis
 
 # Screenshot of UI
 
-![HomepageUI](./Screenshots/Screenshot 2023-04-13 080640.png)
+<img src="Screenshots\Screenshot 2023-04-13 080640.png" alt="Homepage Ui"/>
 ![HomepageUI1](./Screenshots/Screenshot 2023-04-13 080856.png)
 ![HomepageUI2](./Screenshots/Screenshot 2023-04-13 080937.png)
 
