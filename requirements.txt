@@ -7,5 +7,4 @@ xgboost
 catboost
 dill
 Flask
-pymongo
 -e .
