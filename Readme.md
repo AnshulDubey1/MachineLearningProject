@@ -1,4 +1,4 @@
-# Student Performance Indicator Project:
+# Student Math Mark Predictor:
 
 This project aims to develop a student performance indicator that predicts a student's math score based on various user inputs. The project utilizes machine learning techniques to predict math scores using features such as writing score, reading score, parental education, ethnicity, gender, and group membership. The project also investigates the correlations and causal relationships between these variables and math outcomes, ultimately estimating the math score based on these factors.
 
