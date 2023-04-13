@@ -10,7 +10,7 @@ This project aims to develop a student performance indicator that predicts a stu
 * `Gender`: This feature represents a student's gender.
 * `Group Membership`: This feature represents the group that the student belongs to.
 Target variable:
-* `Math Score`: Price of the given Diamond.
+* `Math Score`: This feature represents a student's score in a maths exam.
 Machine Learning Techniques
 The machine learning techniques used in this project include regression analysis and causal inference techniques. Regression analysis is used to predict math scores based on the various features, while causal inference techniques are used to identify the causal relationships between the features and math outcomes.
 
