@@ -7,6 +7,9 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import r2_score
 
 from src.exception import CustomException
+from pymongo import MongoClient
+import certifi
+
 def save_object(file_path,obj):
     try:
         dir_path=os.path.dirname(file_path)
@@ -52,3 +55,17 @@ def load_object(file_path):
             return dill.load(file_obj)
     except Exception as e:
             raise CustomException(e, sys)
+    
+def read_mongodb(connection):
+    try:
+        client= MongoClient(connection,tlsCAFile=certifi.where())
+        db=client['Data']
+        database=db.Student_Records
+        cursor=database.find()
+        list_cur = list(cursor)
+        df = pd.DataFrame(list_cur)
+        df=df.drop(['_id'],axis='columns')
+        return df
+    except Exception as E:
+        raise CustomException(E,sys)
+        
