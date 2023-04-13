@@ -20,6 +20,7 @@ The machine learning techniques used in this project include regression analysis
 <img src="Screenshots\Screenshot 2023-04-13 080640.png" alt="Homepage Ui"/>
 <img src="Screenshots\Screenshot 2023-04-13 080856.png" alt="Homepage Ui1"/>
 <img src="Screenshots\Screenshot 2023-04-13 080937.png" alt="Homepage Ui2"/>
+
 # Approach for the project 
 
 1. Data Ingestion : 
