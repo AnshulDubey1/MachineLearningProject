@@ -17,9 +17,8 @@ The machine learning techniques used in this project include regression analysis
 # Screenshot of UI
 
 <img src="Screenshots\Screenshot 2023-04-13 080640.png" alt="Homepage Ui"/>
-![HomepageUI1](./Screenshots/Screenshot 2023-04-13 080856.png)
-![HomepageUI2](./Screenshots/Screenshot 2023-04-13 080937.png)
-
+<img src="Screenshots\Screenshot 2023-04-13 080856.png" alt="Homepage Ui1"/>
+<img src="Screenshots\Screenshot 2023-04-13 080937.png" alt="Homepage Ui2"/>
 # Approach for the project 
 
 1. Data Ingestion : 
