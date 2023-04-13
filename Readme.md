@@ -2,13 +2,13 @@
 
 This project aims to develop a student performance indicator that predicts a student's math score based on various user inputs. The project utilizes machine learning techniques to predict math scores using features such as writing score, reading score, parental education, ethnicity, gender, and group membership. The project also investigates the correlations and causal relationships between these variables and math outcomes, ultimately estimating the math score based on these factors.
 
-#Features:
-*`Writing Score`: This feature represents a student's score in a writing exam.
-*`Reading Score`: This feature represents a student's score in a reading exam.
-*`Parental Education`: This feature represents the education level of a student's parents.
-*`Ethnicity`: This feature represents a student's ethnicity.
-*`Gender`: This feature represents a student's gender.
-*`Group Membership`: This feature represents the group that the student belongs to.
+# Features:
+* `Writing Score`: This feature represents a student's score in a writing exam.
+* `Reading Score`: This feature represents a student's score in a reading exam.
+* `Parental Education`: This feature represents the education level of a student's parents.
+* `Ethnicity`: This feature represents a student's ethnicity.
+* `Gender`: This feature represents a student's gender.
+* `Group Membership`: This feature represents the group that the student belongs to.
 Target variable:
 * `Math Score`: Price of the given Diamond.
 Machine Learning Techniques
@@ -47,17 +47,17 @@ The machine learning techniques used in this project include regression analysis
 # Exploratory Data Analysis Notebook
 Link : [EDA Notebook](./notebook/eda.ipynb)
 
-#Dependencies
-Python 3.8 or higher
-pandas
-numpy
-seaborn
-scikit-learn
-matplotlib
-xgboost
-catboost
-dill
-Flask
+# Dependencies
+* Python 3.8 or higher
+* pandas
+* numpy
+* seaborn
+* scikit-learn
+* matplotlib
+* xgboost
+* catboost
+* dill
+* Flask
 Please make sure to install these dependencies using pip or any other package manager before running the project.
 Usage
 Install the required dependencies using pip install pandas numpy scikit-learn.
