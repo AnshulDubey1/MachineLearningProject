@@ -11,7 +11,8 @@ This project aims to develop a student performance indicator that predicts a stu
 * `Group Membership`: This feature represents the group that the student belongs to.
 Target variable:
 * `Math Score`: This feature represents a student's score in a maths exam.
-Machine Learning Techniques
+
+# Machine Learning Techniques:
 The machine learning techniques used in this project include regression analysis and causal inference techniques. Regression analysis is used to predict math scores based on the various features, while causal inference techniques are used to identify the causal relationships between the features and math outcomes.
 
 # Screenshot of UI
